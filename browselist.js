@@ -1,0 +1,138 @@
+const jCategory = [
+    {
+        index: 0,
+        image: "images/google.png",
+        title: "Web Developer",
+        rate: "$900-1200/m",
+        av: "Full Time",
+        companyName: "Google",
+        location: "USA",
+        vacancy: "01",
+        hours: "50h/Week",
+        description: "It is a long established  fact that a reader will be distributed by the the readable content of a page when loohing at its layout. The point of using lorem Ipsum is that it has a more or less normal distribution of letters, as opposed to using Content here,making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as thier dafault model text, and a search for 'lorem Ipsum'  will uncover many web sites still in their  infancy. Various versions have evolved over the years,sometimes by accident,sometimes on purpose(injected humour and the like).",
+        workplace: "Work from home",
+        education: "Bachelor degree in any Computer Science Course.",
+        experience: "2 to 4 year(s)",
+    },
+    {
+        index: 1,
+        image: "images/uber.png",
+        title: "Freelancer",
+        rate: "$900-1200/m",
+        av: "Freelancer",
+        companyName: "Uber",
+        location: "USA",
+        vacancy: "04",
+        hours: "40h/Week",
+        description: "It is a long established  fact that a reader will be distributed by the the readable content of a page when loohing at its layout. The point of using lorem Ipsum is that it has a more or less normal distribution of letters, as opposed to using Content here,making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as thier dafault model text, and a search for 'lorem Ipsum'  will uncover many web sites still in their  infancy. Various versions have evolved over the years,sometimes by accident,sometimes on purpose(injected humour and the like).",
+        workplace: "Work from home",
+        education: "Bachelor degree in any Computer Science Course.",
+        experience: "1 to 5 year(s)",
+
+    },
+
+    {
+        index: 2,
+        image: "images/linkedin.png",
+        title: "Business Associate",
+        rate: "$900-1200/m",
+        av: "Part Time",
+        companyName: "Linkedin",
+        location: "USA",
+        vacancy: "08",
+        hours: "20h/Week",
+        description: "It is a long established  fact that a reader will be distributed by the the readable content of a page when loohing at its layout. The point of using lorem Ipsum is that it has a more or less normal distribution of letters, as opposed to using Content here,making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as thier dafault model text, and a search for 'lorem Ipsum'  will uncover many web sites still in their  infancy. Various versions have evolved over the years,sometimes by accident,sometimes on purpose(injected humour and the like).",
+        workplace: "Work from home",
+        education: "Bachelor degree in any Computer Science Course.",
+        experience: "2 to 5 year(s)",
+
+    },
+
+    {
+        index: 3,
+        image: "images/facebook.png",
+        title: "Digital Marketing",
+        rate: "$900-1200/m",
+        av: "Full Time",
+        companyName: "Facebook",
+        location: "USA",
+        vacancy: "03",
+        hours: "12h/Week",
+        description: "It is a long established  fact that a reader will be distributed by the the readable content of a page when loohing at its layout. The point of using lorem Ipsum is that it has a more or less normal distribution of letters, as opposed to using Content here,making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as thier dafault model text, and a search for 'lorem Ipsum'  will uncover many web sites still in their  infancy. Various versions have evolved over the years,sometimes by accident,sometimes on purpose(injected humour and the like).",
+        workplace: "Work from home",
+        education: "Bachelor degree in any Computer Science Course.",
+        experience: "4 to 5 year(s)",
+
+    },
+
+    {
+        index: 4,
+        image: "images/yahoo.png",
+        title: "User Experience",
+        rate: "$900-1200/m",
+        av: "Part Time",
+        companyName: "Yahoo",
+        location: "USA",
+        vacancy: "10",
+        hours: "12h/Week",
+        description: "It is a long established  fact that a reader will be distributed by the the readable content of a page when loohing at its layout. The point of using lorem Ipsum is that it has a more or less normal distribution of letters, as opposed to using Content here,making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as thier dafault model text, and a search for 'lorem Ipsum'  will uncover many web sites still in their  infancy. Various versions have evolved over the years,sometimes by accident,sometimes on purpose(injected humour and the like).",
+        workplace: "Work from home",
+        education: "Bachelor degree in any Computer Science Course.",
+        experience: "4 to 5 year(s)",
+
+    },
+
+    {
+        index: 5,
+        image: "images/instagram.png",
+        title: "Product Designer",
+        rate: "$900-1200/m",
+        av: "Part Time",
+        companyName: "Instagram",
+        location: "USA",
+        vacancy: "05",
+        hours: "17h/Week",
+        description: "It is a long established  fact that a reader will be distributed by the the readable content of a page when loohing at its layout. The point of using lorem Ipsum is that it has a more or less normal distribution of letters, as opposed to using Content here,making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as thier dafault model text, and a search for 'lorem Ipsum'  will uncover many web sites still in their  infancy. Various versions have evolved over the years,sometimes by accident,sometimes on purpose(injected humour and the like).",
+        workplace: "Work from home",
+        education: "Bachelor degree in any Computer Science Course.",
+        experience: "2 to 3 year(s)",
+
+    },
+
+    {
+        index: 6,
+        image: "images/apple.png",
+        title: "Game Developer",
+        rate: "$900-1200/m",
+        av: "Full Time",
+        companyName: "Apple",
+        location: "USA",
+        vacancy: "04",
+        hours: "16h/Week",
+        description: "It is a long established  fact that a reader will be distributed by the the readable content of a page when loohing at its layout. The point of using lorem Ipsum is that it has a more or less normal distribution of letters, as opposed to using Content here,making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as thier dafault model text, and a search for 'lorem Ipsum'  will uncover many web sites still in their  infancy. Various versions have evolved over the years,sometimes by accident,sometimes on purpose(injected humour and the like).",
+        workplace: "Work from home",
+        education: "Bachelor degree in any Computer Science Course.",
+        experience: "2 to 3 year(s)",
+
+    },
+
+    {
+        index: 7,
+        image: "images/wordpress.png",
+        title: "UI/UX Designer",
+        rate: "$900-1200/m",
+        av: "Full Time",
+        companyName: "Wordpress",
+        location: "USA",
+        vacancy: "01",
+        hours: "20h/Week",
+        description: "It is a long established  fact that a reader will be distributed by the the readable content of a page when loohing at its layout. The point of using lorem Ipsum is that it has a more or less normal distribution of letters, as opposed to using Content here,making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as thier dafault model text, and a search for 'lorem Ipsum'  will uncover many web sites still in their  infancy. Various versions have evolved over the years,sometimes by accident,sometimes on purpose(injected humour and the like).",
+        workplace: "Work from home",
+        education: "Bachelor degree in any Computer Science Course.",
+        experience: "2 to 3 year(s)",
+
+    },
+
+
+
+];
